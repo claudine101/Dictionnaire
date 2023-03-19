@@ -36,7 +36,7 @@ export default function App() {
 }
 useEffect(() => {
   fetchMots()
-}, [])
+}, [reachMots])
 
   const [deroulerSens, setderoulerSens] = useState(true)
   const [enroulerSens, setEnroulerSens] = useState(false)
